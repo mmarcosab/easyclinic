@@ -18,3 +18,6 @@ We use [SemVer](http://semver.org/)
 
 ### Running mongo with Docker
 Run docker-compose up and access http://localhost:8081/
+
+### Simple design solution
+![easyclinic](https://user-images.githubusercontent.com/109630016/193985484-84866ced-949f-47e2-93b1-56a41b1a5b49.png)
