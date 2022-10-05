@@ -1,7 +1,5 @@
 package com.easyclinic.app.domain;
 
-import java.time.LocalDate;
-
 public class CommonAddress implements Address {
 
     private String street;
