@@ -10,12 +10,16 @@
 * [Java](https://www.java.com/)
 * [Maven](https://maven.apache.org/)
 * [Spring Boot](https://spring.io/projects/spring-boot)
-* [MongoDB](https://www.mongodb.com/)
+* [MongoDB](https://www.mongodb.com/) or [PostgreSql](https://www.postgresql.org/) (I'm evaluating)
 * [Docker](https://www.docker.com/products/docker-desktop)
 * [SemVer](http://semver.org/)
+* [K8s](https://kubernetes.io/)
 
 ### Running mongo with Docker
 Run docker-compose up and access http://localhost:8081/
+
+### Running postgre with Docker
+Run docker-compose up and access http://localhost:5050/
 
 ### Simple design solution
 ![easyclinic](https://user-images.githubusercontent.com/109630016/193985484-84866ced-949f-47e2-93b1-56a41b1a5b49.png)
