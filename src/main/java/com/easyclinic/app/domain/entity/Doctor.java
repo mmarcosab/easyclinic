@@ -9,6 +9,19 @@ public class Doctor implements Person {
     private String cpf;
     private LocalDate birthDate;
     private String rg;
+    private String crm;
+
+    private Doctor() {
+
+    }
+    protected Doctor(final Long id, final String name, final String cpf, final LocalDate birthDate, final String rg, final String crm) {
+        this.id = id;
+        this.name = name;
+        this.cpf = cpf;
+        this.birthDate = birthDate;
+        this.rg = rg;
+        this.crm = crm;
+    }
 
     @Override
     public Long getId() {
@@ -40,6 +53,9 @@ public class Doctor implements Person {
         return null;
     }
 
+    public String getCrm(){
+        return this.crm;
+    }
     @Override
     public boolean equals(Object obj) {
         //TODO implement

@@ -11,7 +11,7 @@ public class CommonAddress implements Address {
 
     }
 
-    public CommonAddress(String street, String number, String city, String postalCode) {
+    protected CommonAddress(String street, String number, String city, String postalCode) {
         this.street = street;
         this.number = number;
         this.city = city;
