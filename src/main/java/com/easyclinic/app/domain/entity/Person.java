@@ -1,7 +1,8 @@
-package com.easyclinic.app.domain;
+package com.easyclinic.app.domain.entity;
 
 import java.time.LocalDate;
 public interface Person {
+    Long getId();
     String getName();
     String getCpf();
     LocalDate getBirthDate();

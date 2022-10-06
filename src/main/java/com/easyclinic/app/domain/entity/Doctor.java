@@ -1,14 +1,19 @@
-package com.easyclinic.app.domain;
+package com.easyclinic.app.domain.entity;
 
 import java.time.LocalDate;
 
 public class Doctor implements Person {
 
+    private Long id;
     private String name;
     private String cpf;
     private LocalDate birthDate;
     private String rg;
 
+    @Override
+    public Long getId() {
+        return this.id;
+    }
     @Override
     public String getName() {
         return this.name;

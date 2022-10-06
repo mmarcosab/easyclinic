@@ -1,4 +1,4 @@
-package com.easyclinic.app.domain;
+package com.easyclinic.app.domain.entity;
 
 import java.time.LocalDate;
 
